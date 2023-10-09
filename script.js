@@ -1,4 +1,4 @@
-let cpf = "705.484.450-52";
+let cpf = "625.818.740-40";
 let cpfLimpo = cpf.replace(/\D+/g, '');
 let cpfArrayCompleto = Array.from(cpfLimpo);
 let cpfIncompleto = [...cpfArrayCompleto];
