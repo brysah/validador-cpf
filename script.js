@@ -29,3 +29,7 @@ let segundoDigito = 11 - (acumulador % 11);
 if(segundoDigito > 9) segundoDigito = 0;
 console.log(segundoDigito);
 cpfIncompleto.push(segundoDigito);
+
+let arrayNumero = cpfIncompleto.map(Number);
+arrayNumero = Number(arrayNumero.join(''));
+console.log(arrayNumero);
