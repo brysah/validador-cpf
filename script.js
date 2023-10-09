@@ -10,4 +10,7 @@ for( let numeros of cpfIncompleto){
     acumulador += contador * numeros;
     contador--;
 }
-// console.log(acumulador);
+console.log(acumulador);
+let primeiroDigito = 11 - (acumulador % 11);
+if(primeiroDigito > 9) primeiroDigito = 0;
+console.log(primeiroDigito);
